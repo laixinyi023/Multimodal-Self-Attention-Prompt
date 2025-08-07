@@ -1,0 +1,33 @@
+# Core dependencies
+torch>=1.7.1
+torchvision>=0.8.2
+numpy>=1.19.2
+Pillow>=8.0.0
+tqdm>=4.50.0
+
+# Data processing
+opencv-python>=4.5.0
+scikit-learn>=0.24.0
+pandas>=1.2.0
+
+# Visualization and logging
+tensorboard>=2.4.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Configuration and utilities
+PyYAML>=5.4.0
+omegaconf>=2.1.0
+hydra-core>=1.1.0
+
+# Development tools
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.8.0
+isort>=5.0.0
+
+# Optional: for faster training
+# apex>=0.1.0  # Uncomment if using mixed precision training
+
+# Optional: for better performance
+# torch-scatter>=2.0.0  # Uncomment if using sparse operations 
